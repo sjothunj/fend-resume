@@ -34,7 +34,9 @@ var bio = {
         $("#topMessage").append(formattedPictureURL);
         $("#topMessage").append(formattedWelcome);
         $("#topContacts").append(formattedMobile);
+        $("#footerContacts").append(formattedMobile);
         $("#topContacts").append(formattedEmail);
+        $("#footerContacts").append(formattedEmail);
         $("#topContacts").append(formattedGithub);
         $("#topContacts").append(formattedLocation);
         var formattedSkillset = "";
@@ -187,7 +189,7 @@ var proj = {
     {
     "title" : "Udacity - Front-End Web Developer Nanodegree (in progress)",
     "description" : "Online HTML and Javascript course for developing responsive web-based solutions",
-    "image" : "http://placehold.it/50x50",
+    "image" : "images/Udacity_logo_vert_orange_464x500.png",
     "dates" : [
         2015
         ]
@@ -202,7 +204,7 @@ var proj = {
             var formattedProjectDescription = HTMLprojectDescription.replace("%data%",proj.projects[projects].description);
             $(".project-entry:last").append(formattedProjectDescription);
             var formattedProjectImage = HTMLprojectImage.replace("%data%",proj.projects[projects].image);
-//            $(".project-entry:last").append(formattedProjectImage);
+            $(".project-entry:last").append(formattedProjectImage);
         };
     }
 };
