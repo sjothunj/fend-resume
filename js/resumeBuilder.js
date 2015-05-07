@@ -189,7 +189,7 @@ var proj = {
     {
     "title" : "Udacity - Front-End Web Developer Nanodegree (in progress)",
     "description" : "Online HTML and Javascript course for developing responsive web-based solutions",
-    "image" : "images/Udacity_logo_vert_orange_464x500.png",
+    "image" : "http://www.sjothun.com/img/main/Udacity_logo_vert_orange_464x500.png",
     "dates" : [
         2015
         ]
